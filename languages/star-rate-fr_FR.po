@@ -1,0 +1,182 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Star Rate\n"
+"POT-Creation-Date: 2025-12-23 12:00+0100\n"
+"PO-Revision-Date: 2025-12-23 12:02+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: star-rate.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/Core/Database.php:50
+msgid "Invalid rating value. Must be between 1 and 5."
+msgstr "Valeur de notation invalide. Ça doit être entre 1 et 17 h."
+
+#: includes/Core/Database.php:57
+msgid "Invalid post ID."
+msgstr "ID de publication invalide."
+
+#: includes/Core/Database.php:82 includes/Core/RestApi.php:70
+msgid "You have already voted for this post."
+msgstr "Vous avez déjà évalué cette publication."
+
+#: includes/Core/Database.php:93
+msgid "Failed to calculate statistics."
+msgstr "Échec de calculer les statistiques."
+
+#: includes/Core/Database.php:108
+msgid "Vote recorded successfully."
+msgstr "Vote enregistré avec succès."
+
+#: includes/Core/Database.php:116
+msgid "An error occurred while recording your vote."
+msgstr "Une erreur s’est produite lors de l’enregistrement de votre vote."
+
+#: includes/Core/Renderer.php:66
+msgid "No votes yet"
+msgstr "Pas encore de votes"
+
+#: includes/Core/Renderer.php:67
+msgid "1 vote"
+msgstr "1 vote"
+
+#. translators: %d is the number of votes.
+#: includes/Core/Renderer.php:69
+#, php-format
+msgid "%d votes"
+msgstr "%d votes"
+
+#: includes/Core/Renderer.php:70
+msgid "Failed to record vote. Please try again."
+msgstr "Échec à enregistrer le vote. Veuillez réessayer."
+
+#: includes/Core/Renderer.php:71
+msgid "Network error. Please check your connection and try again."
+msgstr "Erreur réseau. Veuillez vérifier votre connexion et réessayer."
+
+#: includes/Core/Renderer.php:94
+msgid "Was this article helpful?"
+msgstr "Est-ce que cet article a été utile ?"
+
+#: includes/Core/Renderer.php:95
+msgid "Rate it to help us improve our content."
+msgstr "Notez-le pour nous aider à améliorer notre contenu."
+
+#: includes/Core/Renderer.php:98
+msgid "Rate this post"
+msgstr "Notez ce post"
+
+#. translators: %d is the star number (1-5).
+#: includes/Core/Renderer.php:106
+#, php-format
+msgid "Rate %d out of 5 stars"
+msgstr "Note %d sur 5 étoiles"
+
+#: includes/Core/Renderer.php:133
+msgid "Thank you!"
+msgstr "Merci !"
+
+#: includes/Core/Renderer.php:134
+msgid "Your feedback is valuable."
+msgstr "Vos commentaires sont précieux."
+
+#: includes/Core/RestApi.php:61
+msgid "Security verification failed."
+msgstr "La vérification de sécurité a échoué."
+
+#: includes/Core/Settings.php:18
+msgid "Star Rate Settings"
+msgstr "Réglages du taux d’étoiles"
+
+#. Plugin Name of the plugin/theme
+#: includes/Core/Settings.php:19
+msgid "Star Rate"
+msgstr "Taux d’Étoiles"
+
+#: includes/Core/Settings.php:39
+msgid "General Settings"
+msgstr "Réglages généraux"
+
+#: includes/Core/Settings.php:46
+msgid "Enable Schema.org"
+msgstr "Activez Schema.org"
+
+#: includes/Core/Settings.php:65
+msgid "Save Settings"
+msgstr "Sauvegarder les paramètres"
+
+#: includes/Core/Settings.php:71
+msgid "Statistics"
+msgstr "Statistiques"
+
+#: includes/Core/Settings.php:76
+msgid "Customization"
+msgstr "Personnalisation"
+
+#: includes/Core/Settings.php:77
+msgid ""
+"Override CSS variables in your theme to customize the widget appearance:"
+msgstr ""
+"Écartez les variables CSS dans votre thème pour personnaliser "
+"l’apparence du widget :"
+
+#: includes/Core/Settings.php:90
+msgid "Filters"
+msgstr "Filtres"
+
+#: includes/Core/Settings.php:92
+msgid "Change Schema.org type (default: Article)"
+msgstr "Changer Schema.org type (par défaut : Article)"
+
+#: includes/Core/Settings.php:93
+msgid "Modify the complete JSON-LD schema"
+msgstr "Modifier le schéma JSON-LD complet"
+
+#: includes/Core/Settings.php:100
+msgid "Configure how Star Rate displays on your site."
+msgstr ""
+"Configurez la façon dont le taux d’étoiles s’affiche sur votre site."
+
+#: includes/Core/Settings.php:114
+msgid "Enable Schema.org JSON-LD for SEO"
+msgstr "Activez Schema.org JSON-LD pour le SEO"
+
+#: includes/Core/Settings.php:142
+msgid "Total Votes:"
+msgstr "Total des votes:"
+
+#: includes/Core/Settings.php:146
+msgid "Rated Posts:"
+msgstr "Publications notées :"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/Loubal70/star-rate"
+msgstr "https://github.com/Loubal70/star-rate"
+
+#. Description of the plugin/theme
+msgid ""
+"High-performance star rating with Interactivity API. GDPR compliant, SEO "
+"optimized with Schema.org."
+msgstr ""
+"Évaluation en étoiles haute performance avec l’API Interactivity. "
+"Conforme au RGPD, optimisé SEO avec Schema.org."
+
+#. Author of the plugin/theme
+msgid "Loubal70"
+msgstr "Loubal70"
+
+#. Author URI of the plugin/theme
+msgid "https://louis-boulanger.fr/"
+msgstr "https://louis-boulanger.fr/"
