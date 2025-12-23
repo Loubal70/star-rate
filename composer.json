@@ -1,0 +1,24 @@
+{
+    "name": "loubal70/star-rate",
+    "description": "High-performance star rating with Interactivity API. GDPR compliant, SEO optimized with Schema.org.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Loubal70",
+            "homepage": "https://louis-boulanger.fr/"
+        }
+    ],
+    "require": {
+        "php": ">=8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "StarRate\\": "includes/"
+        }
+    },
+    "support": {
+        "issues": "https://github.com/Loubal70/star-rate/issues",
+        "source": "https://github.com/Loubal70/star-rate"
+    }
+}

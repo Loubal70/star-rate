@@ -30,9 +30,7 @@ define('STAR_RATE_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('STAR_RATE_PLUGIN_URL', plugin_dir_url(__FILE__));
 define('STAR_RATE_PLUGIN_BASENAME', plugin_basename(__FILE__));
 
-require_once STAR_RATE_PLUGIN_DIR . 'includes/Utils/Autoloader.php';
-
-Utils\Autoloader::register();
+require_once STAR_RATE_PLUGIN_DIR . 'vendor/autoload.php';
 
 function activate(): void {
     $database = new Core\Database();
