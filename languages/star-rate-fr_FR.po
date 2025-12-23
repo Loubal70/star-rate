@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Star Rate\n"
 "POT-Creation-Date: 2025-12-23 12:00+0100\n"
-"PO-Revision-Date: 2025-12-23 12:02+0100\n"
+"PO-Revision-Date: 2025-12-23 12:46+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -98,12 +98,12 @@ msgstr "La vérification de sécurité a échoué."
 
 #: includes/Core/Settings.php:18
 msgid "Star Rate Settings"
-msgstr "Réglages du taux d’étoiles"
+msgstr "Réglages Star Rate"
 
 #. Plugin Name of the plugin/theme
 #: includes/Core/Settings.php:19
 msgid "Star Rate"
-msgstr "Taux d’Étoiles"
+msgstr "Star Rate"
 
 #: includes/Core/Settings.php:39
 msgid "General Settings"
@@ -146,8 +146,7 @@ msgstr "Modifier le schéma JSON-LD complet"
 
 #: includes/Core/Settings.php:100
 msgid "Configure how Star Rate displays on your site."
-msgstr ""
-"Configurez la façon dont le taux d’étoiles s’affiche sur votre site."
+msgstr "Configurez la façon dont le Star Rate s’affiche sur votre site."
 
 #: includes/Core/Settings.php:114
 msgid "Enable Schema.org JSON-LD for SEO"
