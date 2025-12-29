@@ -31,7 +31,7 @@ final readonly class Schema {
             return;
         }
 
-        $schema_type = apply_filters('star_rate_schema_type', 'Article');
+        $schema_type = apply_filters('star_rate_schema_type', 'CreativeWorkSeries');
 
         $schema = [
             '@context'        => 'https://schema.org',
